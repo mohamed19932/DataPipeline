@@ -12,5 +12,5 @@
         - You can call Visualization function
 
 - How to run test case: 
-        - Execute a test.py in the pipeline folder
+        - Execute test.py in the pipeline folder
 	
