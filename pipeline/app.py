@@ -8,6 +8,7 @@ Created on Sun Feb 18 10:58:46 2024
 from flask import Flask
 import main
 
+
 app = Flask(__name__)
 
 @app.route("/")
@@ -15,7 +16,7 @@ def _main():
     return str(main.main())
 
 @app.route("/v")
-def Visualization():
+def visualization():
     return str(main.Visualize())
 
 
@@ -23,3 +24,5 @@ def Visualization():
 
 if __name__ == '__main__':
    app.run()
+   
+   
